@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    position: relative;
+    padding-top: 120px;
+}
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    z-index: 3;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 103, 222, 0.5);
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.grid-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item p {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.grid-item h2,
+.grid-item h3,
+.grid-item h4 {
+    font-weight: normal;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.logo-container img {
+    width: 80px;
+    height: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(223, 193, 110);
+    font-weight: bold;
+    margin-top: 15px;
+    position:absolute;
+    top: 10px;
+    left: 110px;
+    z-index: 3;
+}
+
+#main_menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#main_menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#main_menu li:last-child {
+    margin-right: 0;
+}
+
+#main_menu li a {
+    display: block;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}
+
+#main_menu li a:hover {
+    color: rgb(223, 193, 110);
+}
+
+.bottom-images {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    z-index: 3;
+}
+
+.bottom-images a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.bottom-images img {
+    width: 40px;
+    height: auto;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.grid-item img:hover {
+    transform: scale(1.2);
+}
